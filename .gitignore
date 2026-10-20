@@ -1,0 +1,4 @@
+target/
+.demo/
+plugins/*/target/
+plugins/*/Cargo.lock

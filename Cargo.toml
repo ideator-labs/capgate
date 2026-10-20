@@ -1,0 +1,12 @@
+[package]
+name = "capgate"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "Fail CI when a WebAssembly component update asks for new host capabilities"
+
+[dependencies]
+wasmparser = "0.240"
+
+[workspace]
+exclude = ["plugins"]
